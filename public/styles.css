@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f0f0f;
+  color: #f0f0f0;
+  text-align: center;
+}
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+  background: #121212;
+}
+.navbar a {
+  margin-left: 20px;
+  color: white;
+  text-decoration: none;
+}
+.hero {
+  margin-top: 100px;
+  animation: fadeIn 3s ease-in-out;
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
